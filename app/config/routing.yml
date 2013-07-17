@@ -1,0 +1,5 @@
+css_inuit:
+    resource: "@CssInuitBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
