@@ -1,0 +1,32 @@
+/**
+ * STYLES ONLY PLEASE!
+ */
+
+body {
+  background-color: $global-bg-colour;
+  color: $global-fg-colour;
+}
+a {
+  color: $global-link-colour;
+  text-decoration: none;
+}
+section#header {
+  background-color: $header-bg-colour;
+  color: $header-fg-colour;
+  border-bottom: 1px solid $header-block-border-colour;
+}
+section#navigation {
+  background-color: $nav-bg-colour;
+  color: $nav-fg-colour;
+  a {
+    color: $nav-link-colour;
+  }
+}
+section#content {
+  background-color: $content-bg-colour;
+  color: $content-fg-colour;
+}
+section#footer {
+  background-color: $footer-bg-colour;
+  color: $footer-fg-colour;
+}

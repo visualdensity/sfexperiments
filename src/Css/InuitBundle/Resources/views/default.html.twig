@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        {% stylesheets
+            filter='sass,cssrewrite' '@BriefstaAdminBundle/Resources/scss/briefsta.scss'
+            output='bundles/briefstaadmin/output/css/briefsta.css'
+        %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
+
+        {% javascripts '@BriefstaAdminBundle/Resources/public/js/vendor/modernizr.js'
+           output='bundles/briefstaadmin/output/js/modernizr.js'
+        %}
+        <script src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+    </head>
+    <body>
+    <section id="header" class="cf soft-half">
+        <h2>Header</h2>
+    </section>{# header #}
+
+    <section id="navigation" class="">
+        <ul class="nav  nav--block">
+            <li><a href=#>Home</a></li><!--
+            --><li><a href=#>About</a></li><!--
+            --><li><a href=#>Portfolio</a></li><!--
+            --><li><a href=#>Contact</a></li>
+        </ul>
+    </section>
+
+    <section id="content" class="cf">
+        {% block content %}{% endblock content %}
+    </section>{# section #}
+
+    <section id="footer" class="cf soft-half smallprint">
+        <div class="grid">
+            <div class="grid__item one-quarter palm-one-half">
+                One
+            </div><!--
+            --><div class="grid__item one-quarter palm-one-half">
+                Two
+            </div><!--
+            --><div class="grid__item one-quarter palm-one-half">
+                Three
+            </div><!--
+            --><div class="grid__item one-quarter palm-one-half">
+                Four
+            </div>
+        </div>
+    </section>
+
+    </body>
+</html>

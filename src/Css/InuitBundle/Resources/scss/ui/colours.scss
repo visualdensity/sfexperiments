@@ -1,0 +1,25 @@
+/* --- Body ---*/
+$global-bg-colour            : #fff;
+$global-fg-colour            : #333;
+$global-link-colour          : #E01B5D;
+$global-link-colour--hover   : #E01B5D;
+$global-link-colour--active  : #E01B5D;
+$global-link-colour--visited : #E01B5D;
+
+/* --- Header ---*/
+$header-bg-colour           : #1CB3FF;
+$header-fg-colour           : #fff;
+$header-block-border-colour : #2582B0;
+
+/* --- Menu ---*/
+$nav-bg-colour              : #186A94;
+$nav-fg-colour              : #999;
+$nav-link-colour            : #ccc;
+
+/* --- Content:Main ---*/
+$content-bg-colour          : #fff;
+$content-fg-colour          : #333;
+
+/* --- Footer ---*/
+$footer-bg-colour          : $nav-bg-colour;
+$footer-fg-colour          : $nav-link-colour;
