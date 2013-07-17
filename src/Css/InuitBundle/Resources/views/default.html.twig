@@ -8,14 +8,14 @@
         <meta name="viewport" content="width=device-width">
 
         {% stylesheets
-            filter='sass,cssrewrite' '@BriefstaAdminBundle/Resources/scss/briefsta.scss'
-            output='bundles/briefstaadmin/output/css/briefsta.css'
+            filter='sass,cssrewrite' '@CssInuitBundle/Resources/scss/mystyle.scss'
+            output='bundles/inuit/output/css/mystyle.css'
         %}
         <link rel="stylesheet" href="{{ asset_url }}" />
         {% endstylesheets %}
 
-        {% javascripts '@BriefstaAdminBundle/Resources/public/js/vendor/modernizr.js'
-           output='bundles/briefstaadmin/output/js/modernizr.js'
+        {% javascripts '@CssInuitBundle/Resources/public/js/vendor/modernizr.js'
+           output='bundles/inuit/output/js/modernizr.js'
         %}
         <script src="{{ asset_url }}"></script>
         {% endjavascripts %}
